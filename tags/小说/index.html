@@ -106,10 +106,10 @@
         <div class="flex-container">
           <div id="tag">
   
-
+    <!-- 单个标签页：显示该标签下的文章列表 -->
     <p class="tag-title">
-      / <a href="/tag/">tags</a>
-      / <a href="">小说</a> /
+      / <a href="/tags">tags</a>
+      / <a href=""></a> /
     </p>
     <div class="post-list">
     
@@ -141,8 +141,40 @@
 
 
   
-
 </div>
+
+<style>
+  /* 添加基础样式 */
+  .tag-cloud {
+    text-align: center;
+    padding: 30px 0;
+    line-height: 2;
+  }
+  
+  .tag-item {
+    display: inline-block;
+    margin: 5px 10px;
+    padding: 5px 15px;
+    background: #f0f8ff;
+    border-radius: 20px;
+    color: #1e90ff;
+    transition: all 0.3s;
+    text-decoration: none;
+  }
+  
+  .tag-item:hover {
+    background: #1e90ff;
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .no-tags {
+    text-align: center;
+    color: #999;
+    padding: 40px 0;
+  }
+</style>
         </div>
       </div>
       
