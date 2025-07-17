@@ -16,7 +16,7 @@
 
 
 
-<title>Archive | 鱼缸</title>
+<title>Tag: 小城 | 鱼缸</title>
 
 
 
@@ -82,7 +82,7 @@
                    
           
             
-              <li class="menu-item menu-item-active">
+              <li class="menu-item">
                 <a href="/archives/">归档</a>
               </li> 
                    
@@ -104,7 +104,14 @@
 
       <div class="main">
         <div class="flex-container">
-          <div class="post-list">
+          <div id="tag">
+  
+    <!-- 单个标签页：显示该标签下的文章列表 -->
+    <p class="tag-title">
+      / <a href="/tags">tags</a>
+      / <a href=""></a> /
+    </p>
+    <div class="post-list">
     
     
 
@@ -134,24 +141,6 @@
 
         <div class="post-list-item">
             <div class="post-title">
-            <a href="/%E4%B9%A0%E4%BD%9C-%E5%8D%97%E5%9B%BD%E5%87%AD%E7%AA%97/">
-                
-                    习作|南国凭窗
-                
-                </a> 
-            </div>
-            
-            <span class="post-date">5月 1, 2025</span>
-        </div>
-
-    
-
-        
-
-        
-
-        <div class="post-list-item">
-            <div class="post-title">
             <a href="/%E6%B5%81%E6%B5%AA%E5%8A%A8%E7%89%A9%E4%B8%8E%E5%A4%9C%E8%A1%8C%E6%80%A7%E5%AE%B6%E7%94%A8%E7%94%B5%E5%99%A81/">
                 
                     习作|南国凭窗
@@ -168,6 +157,42 @@
     </div>
 </div>
 
+
+  
+</div>
+
+<style>
+  /* 添加基础样式 */
+  .tag-cloud {
+    text-align: center;
+    padding: 30px 0;
+    line-height: 2;
+  }
+  
+  .tag-item {
+    display: inline-block;
+    margin: 5px 10px;
+    padding: 5px 15px;
+    background: #f0f8ff;
+    border-radius: 20px;
+    color: #1e90ff;
+    transition: all 0.3s;
+    text-decoration: none;
+  }
+  
+  .tag-item:hover {
+    background: #1e90ff;
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .no-tags {
+    text-align: center;
+    color: #999;
+    padding: 40px 0;
+  }
+</style>
         </div>
       </div>
       
